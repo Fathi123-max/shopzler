@@ -67,6 +67,7 @@ class LoginView extends GetWidget<AuthViewModel> {
                             validatorFn: (value) {
                               if (value!.isEmpty)
                                 return 'Email invalid or not found';
+                              return null;
                             },
                             onSavedFn: (value) {
                               controller.email = value;
@@ -82,6 +83,7 @@ class LoginView extends GetWidget<AuthViewModel> {
                             validatorFn: (value) {
                               if (value!.isEmpty)
                                 return 'Password is incorrect';
+                              return null;
                             },
                             onSavedFn: (value) {
                               controller.password = value;

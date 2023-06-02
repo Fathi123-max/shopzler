@@ -1,34 +1,185 @@
 {
   "project_info": {
-    "project_number": "953455376422",
-    "project_id": "shopzler-4e36f",
-    "storage_bucket": "shopzler-4e36f.appspot.com"
+    "project_number": "396874083132",
+    "project_id": "chat-d65c0",
+    "storage_bucket": "chat-d65c0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:953455376422:android:7eb04f41890f475fa2cee7",
+        "mobilesdk_app_id": "1:396874083132:android:2562f15e122747f8b34c39",
         "android_client_info": {
-          "package_name": "com.appzler.shopzler"
+          "package_name": "com.app.fluttercommerce"
         }
       },
       "oauth_client": [
         {
-          "client_id": "953455376422-ko2u4j7nvp7juksa5d5hrpnphqrvvlsc.apps.googleusercontent.com",
+          "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBLroIeH0i8G_kLTmbXSLaWPX92-l6W5Uw"
+          "current_key": "AIzaSyCf3r77DweO6u4bfNYXNWUPGSSuW8bdjbQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "953455376422-ko2u4j7nvp7juksa5d5hrpnphqrvvlsc.apps.googleusercontent.com",
+              "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "396874083132-0md9h62k0odphif8r8pkgrt6rk5o91lq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.fluttercommerce"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396874083132:android:433c68ca1936fe31b34c39",
+        "android_client_info": {
+          "package_name": "com.appzler.shopzler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3r77DweO6u4bfNYXNWUPGSSuW8bdjbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "396874083132-0md9h62k0odphif8r8pkgrt6rk5o91lq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.fluttercommerce"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396874083132:android:b565ffae196fcd52b34c39",
+        "android_client_info": {
+          "package_name": "com.example.bloc_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3r77DweO6u4bfNYXNWUPGSSuW8bdjbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "396874083132-0md9h62k0odphif8r8pkgrt6rk5o91lq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.fluttercommerce"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396874083132:android:82a3412862591e65b34c39",
+        "android_client_info": {
+          "package_name": "com.example.chatappwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3r77DweO6u4bfNYXNWUPGSSuW8bdjbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "396874083132-0md9h62k0odphif8r8pkgrt6rk5o91lq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.fluttercommerce"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396874083132:android:89af612ff257ebd1b34c39",
+        "android_client_info": {
+          "package_name": "com.example.shopzler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3r77DweO6u4bfNYXNWUPGSSuW8bdjbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396874083132-g05a0796mve7tdm6nfisfs0lvn8qjmis.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "396874083132-0md9h62k0odphif8r8pkgrt6rk5o91lq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.fluttercommerce"
+              }
             }
           ]
         }

@@ -187,6 +187,7 @@ class _EditProfileViewState extends State<EditProfileView> {
                                     validatorFn: (value) {
                                       if (value!.isEmpty || value.length < 4)
                                         return 'Please enter valid name.';
+                                      return null;
                                     },
                                     onSavedFn: (value) {
                                       Get.find<ProfileViewModel>().name = value;
@@ -211,6 +212,7 @@ class _EditProfileViewState extends State<EditProfileView> {
                                         validatorFn: (value) {
                                           if (value!.isEmpty)
                                             return 'Please enter valid email address.';
+                                          return null;
                                         },
                                         onSavedFn: (value) {
                                           Get.find<ProfileViewModel>().email =
@@ -228,6 +230,7 @@ class _EditProfileViewState extends State<EditProfileView> {
                                           if (value!.isEmpty ||
                                               value.length < 6)
                                             return 'Please enter valid password with at least 6 characters.';
+                                          return null;
                                         },
                                         onSavedFn: (value) {
                                           Get.find<ProfileViewModel>()

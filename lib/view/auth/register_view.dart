@@ -65,6 +65,7 @@ class RegisterView extends GetWidget<AuthViewModel> {
                           validatorFn: (value) {
                             if (value!.isEmpty || value.length < 4)
                               return 'Please enter valid name.';
+                            return null;
                           },
                           onSavedFn: (value) {
                             controller.name = value;
@@ -80,6 +81,7 @@ class RegisterView extends GetWidget<AuthViewModel> {
                           validatorFn: (value) {
                             if (value!.isEmpty)
                               return 'Please enter valid email address.';
+                            return null;
                           },
                           onSavedFn: (value) {
                             controller.email = value;
@@ -95,6 +97,7 @@ class RegisterView extends GetWidget<AuthViewModel> {
                           validatorFn: (value) {
                             if (value!.isEmpty || value.length < 6)
                               return 'Please enter valid password with at least 6 characters.';
+                            return null;
                           },
                           onSavedFn: (value) {
                             controller.password = value;

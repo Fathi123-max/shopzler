@@ -24,15 +24,17 @@ class MyApp extends StatelessWidget {
         designSize: orientation == Orientation.portrait
             ? Size(375, 812)
             : Size(812, 375),
-        builder: () => GetMaterialApp(
-          initialBinding: Binding(),
-          theme: ThemeData(
-            fontFamily: 'SourceSansPro',
-          ),
-          home: ControlView(),
-          debugShowCheckedModeBanner: false,
-          title: 'Shopzler',
-        ),
+        builder: (BuildContext context, Widget? child) {
+          return GetMaterialApp(
+            initialBinding: Binding(),
+            theme: ThemeData(
+              fontFamily: 'SourceSansPro',
+            ),
+            home: ControlView(),
+            debugShowCheckedModeBanner: false,
+            title: 'Shopzler',
+          );
+        },
       ),
     );
   }

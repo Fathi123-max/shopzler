@@ -68,6 +68,7 @@ class CheckoutView extends StatelessWidget {
                           validatorFn: (value) {
                             if (value!.isEmpty || value.length < 4)
                               return 'Please enter valid street name.';
+                            return null;
                           },
                           onSavedFn: (value) {
                             controller.street = value;
@@ -82,6 +83,7 @@ class CheckoutView extends StatelessWidget {
                           validatorFn: (value) {
                             if (value!.isEmpty || value.length < 4)
                               return 'Please enter valid city name.';
+                            return null;
                           },
                           onSavedFn: (value) {
                             controller.city = value;
@@ -99,6 +101,7 @@ class CheckoutView extends StatelessWidget {
                                 validatorFn: (value) {
                                   if (value!.isEmpty || value.length < 4)
                                     return 'Please enter valid state name.';
+                                  return null;
                                 },
                                 onSavedFn: (value) {
                                   controller.state = value;
@@ -115,6 +118,7 @@ class CheckoutView extends StatelessWidget {
                                 validatorFn: (value) {
                                   if (value!.isEmpty || value.length < 4)
                                     return 'Please enter valid city name.';
+                                  return null;
                                 },
                                 onSavedFn: (value) {
                                   controller.country = value;
@@ -133,6 +137,7 @@ class CheckoutView extends StatelessWidget {
                           validatorFn: (value) {
                             if (value!.isEmpty || value.length < 10)
                               return 'Please enter valid number.';
+                            return null;
                           },
                           onSavedFn: (value) {
                             controller.phone = value;
